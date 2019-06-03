@@ -1,0 +1,8 @@
+
+#!/bin/bash
+
+if pytest ; then
+    git commit -am "done"
+else
+    git reset --hard HEAD
+fi
