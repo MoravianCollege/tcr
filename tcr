@@ -4,5 +4,5 @@
 if pytest ; then
     git add -A && git commit -m "done"
 else
-    git reset --hard HEAD
+    git reset --hard HEAD && git clean -d -f
 fi
