@@ -2,7 +2,7 @@
 #!/bin/bash
 
 if pytest ; then
-    git commit -am "done"
+    git add -A && git commit -m "done"
 else
     git reset --hard HEAD
 fi
